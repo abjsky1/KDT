@@ -74,12 +74,29 @@ let speed = 10
 // 두 변수는 같은 리터럴 10을 저장하지만 서로 다른 의미를 갖는 10 을 저장하는 변수로 표현할 수 있다
 
 
+// 출력함수
+// 함수 : 자주 사용되는 코드들을 정의하여 재사용/호출
+// 내가 만든 함수, 남이 만든 함수(library)
+
+// 1. console.log( 출력할 자료 )
+console.log("안녕하세요1")
+
+// 2. alert( 출력할 자료 )
+alert("안녕하세요2")
+
+// 3. document.querySelector( 선택자 ).inner
+// -> document( html 문서 ), query( 질의 ), Selector( 선택자 ), inner( 마크업사이 )HTML
+document.querySelector("h3").innerHTML = "JS에서 대입한 값"
 
 
+// 입력함수
+// 1. confirm( 출력할 메세지 ) : 브라우저 [확인=true]/[취소=false] 알림창
+let 결과1 = confirm()     // 입력받은 true 또는 false 변수에 저장
+console.log(결과1)
+// *Ctrl 클릭하면 공식 문서 확인 가능
 
-
-
-
-
+// 2. prompt( 출력할 메세지 ) : 브라우저 입력 가능한 알림창 , 입력한 자료 변환
+let 결과2 = prompt()
+console.log(결과2)
 
 
