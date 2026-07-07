@@ -63,6 +63,30 @@
 
     <a href="tel:010-1234-5678"> 모바일에서 전화앱 </a>
 
+    <img src="./images.jpeg"/>              <!-- img : 이미지 마크업 -->
+
+    <img src="../"/>
+    <!-- 상대경로 : 현재 코드를 작성하는 위치 기준으로 불러올 파일의 경로 지정 -->
+    <!--
+        ./      : 현재폴더
+        ../     : 상위폴더 1번 이동
+        ../../  : 상위폴더 2번 이동
+    -->
+    <!-- 절대경로 : 불러올 파일의 전체 경로 지정 , 로컬 vs 서버(네트워크로 자료 제공하는 PC)-->
+    <img src="C:\Users\abjsk\OneDrive\바탕 화면\KDT\day02\images.jpeg" />
+    <img src="http://127.0.0.1:5500/day02.images.jpeg" />
+    <br />
+    <audio src="./earth.mp3" controls> </audio>
+    <br />
+    <video src="./wave.mp4" controls> </video>
+    <!-- autoplay 브라우저 정책상 불가능. 단 muted(음소거)하면 가능하다 -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aFhYXNCn-g8?si=Qcq9dD2DqfdJH1TU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c9f3c1822f59f%3A0x81e51bac4441f659!2zNjPruYzrlKk!5e0!3m2!1sko!2skr!4v1783414982417!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    
+    <!-- 유튜브 영상, 지도 퍼가기 -->
+     
 </body>  <!-- HTML 본문 끝 -->
 
 </html>  <!-- HTML 끝 -->
