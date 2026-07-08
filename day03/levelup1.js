@@ -12,28 +12,27 @@
 // 입력: 59 → 00:00:59
 // 입력: 36000 → 10:00:00
 
-/*
+
 let seconds = parseInt(prompt('0 이상 정수 초 입력'))
-let a1
+let a1 = parseInt(seconds / 3600)
+console.log(a1)
+let a2 = parseInt(seconds / 60 - (60*a1))
+console.log(a2)
+let a3 = seconds - (a1 * 3600) - (a2 * 60)
+console.log(a3)
 
+let b1 = a1 < 10 ? "0" + a1 : a1
+console.log(b1)
+let b2 = a2 < 10 ? "0" + a2 : a2
+console.log(b2)
+let b3 = a3 < 10 ? "0" + a3 : a3
+console.log(b3)
 
+console.log(`${b1}:${b2}:${b3}`)
 
+ 
 
-console.log(`${}:${}:${}`)
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ?? JS 에는 몫 구하는 연산자가 없는 것인가 ?
 
 
 
@@ -59,3 +58,6 @@ console.log(`${}:${}:${}`)
 // 22:10 ~ 23:05 (55분)
 //  기본 2000 + 추가 25분 → 10분 단위 올림 = 3 → 1500 → 3500
 //  심야 20% 할인 → 2800원
+
+
+
