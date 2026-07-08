@@ -234,9 +234,37 @@ document.querySelector(`ol`).innerHTML = `<li> ${방장1} </li> <li> ${방장2} 
 */
 
 
+// 증감연산자
+let age = 30
+console.log(`let age = 30`)
+console.log(`console.log(age)`, age)
+
+console.log(`console.log(age++)`, age++)  // 후위증가
+console.log(`console.log(age)`, age)
+console.log(`console.log(age)`, age)
+console.log(`console.log(++age)`, ++age)  // 선위증가
+console.log(`console.log(age)`, age)
+console.log(`console.log(age)`, age)
 
 
+age = 30
+console.log(`age = 30`)
+console.log(`console.log(age)`, age)
+
+console.log(`console.log(--age)`, --age)  // 선위감소
+console.log(`console.log(age)`, age)
+console.log(`console.log(age)`, age)
+console.log(`console.log(age--)`, age--)  // 후위감소
+console.log(`console.log(age)`, age)
+console.log(`console.log(age)`, age)
 
 
+/* 변수에 1 증가 코드
 
+age++               // 증감연산자
 
+age = age + 1       // 산술연산자
+
+age += 1            // 복합대입연산자 , += 대입하기 전에 오른쪽 항을 왼쪽에 연산 후 대입
+
+*/
