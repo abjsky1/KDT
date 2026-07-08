@@ -187,20 +187,56 @@ console.log(`입력한 정수 ${정수1} 는 ${판단} 입니다`)
 
 // [지문5] prompt 함수로 정수를 입력받아 입력받은 값이 7의 배수이면 true / 아니면 false 로 console탭에 출력하시오.
 
+/*
 let 정수2 = parseInt(prompt(`정수 값을 입력`))
-let 결과 = 정수2 % 7 == 0
-console.log(`입력한 정수 ${정수2}는 7의 배수에 대한 결과로 ${결과} 가 나왔습니다`)
-
-
-
+let 결과1 = 정수2 % 7 == 0
+console.log(`입력한 정수 ${정수2}는 7의 배수에 대한 결과로 ${결과1} 가 나왔습니다`)
+*/
 
 // [지문6] prompt 함수로 아이디 와 비밀번호를 입력받아서 (입력받은)아이디가 'admin' 이고 (입력받은)비밀번호가 1234 와 일치하면 true / 아니면 false 출력하시오.
 
+/*
+let 아이디 = prompt(`아이디 입력`)
+let 비밀번호 = prompt(`비밀번호 입력`)
+let 결과2 = 아이디 == `admin` && 비밀번호 == '1234'
+console.log(`결과 : ${결과2}`)
+*/
 
 // [지문7] prompt 함수로 정수를 입력받아 입력받은 값이 홀수 이거나 7배수 이면 true / 아니면 false 로 console탭에 출력하시오.
 
+/*
+let 정수3 = parseInt(prompt(`정수 값을 입력`))
+let 결과3 = 정수3 % 2 == 1 || 정수3 % 7 == 0
+console.log(`결과 : ${결과3}`)
+*/
 
 // [지문8] 1차점수 와 2차점수 prompt함수로 각 입력받아서 총점이 150점이상이면 '합격' 아니면 '불합격' HTML의 <h3> 에 출력하시오.
 
+/*
+let 일차점수 = parseInt(prompt(`1차 점수 입력`))
+let 이차점수 = parseInt(prompt(`2차 점수 입력`))
+let 점수합 = 일차점수 + 이차점수
+let 결과4 = 점수합 >= 150 ? `합격` : `불합격`
+console.log(`결과 : ${결과4}`)
+// document(HTML문서).querySelector(선택자요청).innerHTML(해당마크업사이)
+document.querySelector(`h3`).innerHTML = `결과 : ${결과4}`
+*/
 
 // [지문9] 두 사람의 이름을 prompt함수로 각 입력받아서 만일 이름이 '유재석' 이면 뒤에 (방장) 이라고 이름 뒤에 붙이고 아니면 생략한다.  HTML의 <ol> 에 결과를 출력하시오.
+
+/*
+let 이름1 = prompt(`이름 입력`)
+let 이름2 = prompt(`다른 이름 입력`)
+let 방장1 = 이름1 == `유재석` ? 이름1 + `(방장)` : 이름1
+let 방장2 = 이름2 == `유재석` ? 이름2 + `(방장)` : 이름2
+
+document.querySelector(`ol`).innerHTML = `<li> ${방장1} </li> <li> ${방장2} </li>`
+*/
+
+
+
+
+
+
+
+
