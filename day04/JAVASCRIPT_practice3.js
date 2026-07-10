@@ -22,6 +22,22 @@ else{fruitList.push(a); console.log(fruitList)}
 */
 
 
+/*
+
+let fruitList = [ '사과', '바나나' ]
+
+let 과일이름 = prompt()
+
+let 존재여부 = fruitList.includes(과일이름)
+
+if(존재여부){console.log(`이미 존재합니다`)}
+else{fruitList.push(과일이름)
+    console.log(fruitList)
+}
+
+*/
+
+
 
 /* 문제 2: 성별에 따른 색상 지정
 
@@ -31,7 +47,7 @@ else{fruitList.push(a); console.log(fruitList)}
 
 
 
-// /*
+// */
 
 let p = prompt(`주민등록번호 13자리 입력`)
 let a = parseFloat(p)
@@ -41,6 +57,21 @@ let c = parseInt(b)
 // */
 
 
+// /*
+
+let 주민등록번호 = prompt()
+console.log(주민등록번호[7])
+
+// * 문자열은 배열로 취급함 *
+
+let 결과 = 주민등록번호[7] == 1 || 주민등록번호[7] == 3
+if(결과){console.log(`blue`)}
+else{console.log(`red`)}
+
+
+
+
+// */
 
 /* 문제 3: 구매 금액에 따른 할인율 적용
 
@@ -82,9 +113,18 @@ let c = parseInt(b)
 
 
 
-// /*
+/*
 
-// */
+let 정수1 = Number(`정수1:`) 
+let 정수2 = Number(`정수2:`)
+let 정수3 = Number(`정수3:`)
+
+let max = 정수1
+
+if(max<정수2){max = 정수2}
+if(max<정수3){max = 정수3}
+
+*/
 
 
 
@@ -115,9 +155,14 @@ let c = parseInt(b)
 
 
 
-// /*
+/*
 
-// */
+let 정수1 = Number(`정수1:`) 
+let 정수2 = Number(`정수2:`)
+let 정수3 = Number(`정수3:`)
+
+
+*/
 
 
 
