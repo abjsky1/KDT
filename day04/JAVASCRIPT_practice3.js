@@ -47,17 +47,17 @@ else{fruitList.push(과일이름)
 
 
 
-// */
+/*
 
 let p = prompt(`주민등록번호 13자리 입력`)
 let a = parseFloat(p)
 let b = p / 1000000
 let c = parseInt(b)
 
-// */
+*/
 
 
-// /*
+/*
 
 let 주민등록번호 = prompt()
 console.log(주민등록번호[7])
@@ -71,7 +71,9 @@ else{console.log(`red`)}
 
 
 
-// */
+*/
+
+
 
 /* 문제 3: 구매 금액에 따른 할인율 적용
 
@@ -84,9 +86,17 @@ else{console.log(`red`)}
 10,000원 미만: 할인 없음 */
 
 
-// /*
+/*
 
-// */
+let total = parseInt(prompt(`총 구매 금액 입력`))
+
+if(total >= 50000){console.log(`10% 할인`)}
+else if(total >= 30000){console.log(`5% 할인`)}
+else if(total >= 10000){console.log(`1% 할인`)}
+else{console.log(`할인 없음`)}
+
+
+*/
 
 
 
@@ -161,6 +171,13 @@ let 정수1 = Number(`정수1:`)
 let 정수2 = Number(`정수2:`)
 let 정수3 = Number(`정수3:`)
 
+let temp = 0 // 두 변수간의 값 스왑(교체) 하기 위한 임시 저장소
+
+if(정수1 > 정수2){ temp = 정수1; 정수1 = 정수2; 정수2 = temp }
+if(정수1 > 정수3){ temp = 정수1; 정수1 = 정수3; 정수3 = temp }
+if(정수2 > 정수3){ temp = 정수1; 정수1 = 정수3; 정수3 = temp }
+
+console.log(`${정수1} ${정수2} ${정수3}`)
 
 */
 
@@ -181,11 +198,60 @@ let 정수3 = Number(`정수3:`)
 
 
 
+/* 신승민
 
-// /*
+let player1 = Number(prompt("플레이어 1 \n 가위(0), 바위(1), 보(2) 입력"));
+let player2 = Number(prompt("플레이어 1 \n 가위(0), 바위(1), 보(2) 입력"));
 
-// */
+if (player1 == 0) {
+  if (player1 - player2 == 0) console.log("비김");
+  else if (player1 - player2 == -1) console.log("플레이어2 승리");
+  else if (player1 - player2 == -2) console.log("플레이어1 승리");
+} else if (player1 == 1) {
+  if (player1 - player2 == 1) console.log("플레이어1 승리");
+  else if (player1 - player2 == 0) console.log("무승부");
+  else if (player1 - player2 == -1) console.log("플레이어2 승리");
+} else if (player1 == 2) {
+  if (player1 - player2 == 2) console.log("플레이어2 승리");
+  else if (player1 - player2 == 1) console.log("플레이어1 승리");
+  else if (player1 - player2 == 0) console.log("무승부");
+}
 
+*/
+
+/*
+
+// p1 승리
+if(player1 == 0 && player2 == 2 || player1 == 1 && player2 == 0 || player1 == 2 && player2 == 1)
+// player1 == (player2+1) % 3
+// if (player1 == (player2+1) % 3){console.log(`플레이어1 승리`)}
+
+// 비김
+else if (player1 == player2)
+// p1 패배
+else{}
+
+
+
+if (player1 == 0) {
+  if (player2 == 0) console.log("비김");
+  else if (player2 == 1) console.log("플레이어2 승리");
+  else if (player2 == 2) console.log("플레이어1 승리");
+} 
+
+else if (player1 == 1) {
+  if (player1 - player2 == 1) console.log("플레이어1 승리");
+  else if (player1 - player2 == 0) console.log("무승부");
+  else if (player1 - player2 == -1) console.log("플레이어2 승리");
+} 
+
+else if (player1 == 2) {
+  if (player1 - player2 == 2) console.log("플레이어2 승리");
+  else if (player1 - player2 == 1) console.log("플레이어1 승리");
+  else if (player1 - player2 == 0) console.log("무승부");
+}
+
+*/
 
 
 /* 문제 9: 주차 차량 위치 검색
