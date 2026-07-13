@@ -453,8 +453,8 @@ for(i=0 ; i <= carNumbers.length-1 ; i++){
     
     html += `${carNumbers[i]} : ${usageMinutes[i]}분 주차 , 최종 요금: ${total}원`
     html += `<br />`
-
-
+    
+    
 }
 
 document.querySelector(`p`).innerHTML = html
