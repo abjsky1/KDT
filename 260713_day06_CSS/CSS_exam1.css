@@ -73,7 +73,7 @@ html > body > div > ol > li{color: blueviolet;}
 .작성자{
     text-align: center;                 /* 텍스트 가로정렬 : left center right */
     text-decoration: underline;         /* 텍스트 선 underline-밑줄 overline-윗줄 line-through-취소선 */
-    text-shadow: 10px 10px 5px blue;                 /* x축(+오른쪽 -왼쪽) y축(+아래쪽 -위쪽) 흐림정도 색상 */
+    text-shadow: 10px 10px 5px blue;  /* x축(+오른쪽 -왼쪽) y축(+아래쪽 -위쪽) 흐림정도 색상 */
 
     /* 색상 표현 방법 */
     color: green;
