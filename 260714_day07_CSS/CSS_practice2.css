@@ -1,0 +1,92 @@
+*{
+    border: solid 1px red;
+}
+
+.img1{
+    width: 200px; height: 260px;
+}
+
+.q{
+    font-family: '굴림';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+
+    text-align: left;
+    text-decoration:none;
+    
+    color:black;
+
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 100%;
+
+    margin: 20px 0px 15px 0px;
+}
+
+.n{
+    font-family: '굴림';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+
+    text-align: left;
+    text-decoration:none;
+    
+    color:orange;
+
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 100%;
+
+    margin: 20px 0px 10px 0px;
+
+}
+
+.w{
+    display: inline-block;
+    width: 300px;
+    
+    padding: 15px 0px 15px 10px;
+
+
+    font-family: '굴림';
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+
+    text-align: left;
+    text-decoration:none;
+    
+    line-height: 200% ;
+
+    color:white;
+
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 100%;
+
+    margin: 0px 0px 0px 0px;
+
+    background-color: darkcyan;
+
+}
+
+.y{
+    font-family: '굴림';
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+
+    text-align: left;
+    text-decoration:none;
+    
+    color:orange;
+
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 100%;
+
+    margin: 20px 0px 10px 0px;
+
+}
