@@ -44,5 +44,56 @@
 
 .box4{
     padding: 10px 15px 20px 25px;       /* 위 오른쪽 아래 왼쪽 순서 */
-    margin: 20px 40px; /* 위&아래 , 왼&오른 */
+    margin: 20px 40px;                  /* 위&아래 , 왼&오른 */
 }
+
+.box5{
+    margin: 0 auto;                     /* 바깥여백의 왼/오른쪽을 auto 설정 : 현재 구역을 가운데로 이동 */
+    width: 50px;                        /* 가로 사이즈 */
+    text-align: center;                 /* 구역내 컨텐츠 가로 정렬 */
+    color: red;                       /* 글꼴 색상 */
+    background-color: beige;          /* 구역 배경 색상 */
+
+
+}
+
+.s1{
+    display: inline;                    /* span, a 등등 마크업 기본값 */
+    width: 100px; height: 100px;        /* inline 은 구역사이즈 설정 불가 */
+    padding: 30px;                      /* 왼/오른쪽만 적용 */
+    margin: 30px;                       /* 왼/오른쪽만 적용 */
+}
+
+.s2{
+    display: block;                     /* div, h 등 마크업 기본값 */
+    width: 30px; height: 30px;          /* 사이즈 적용 가능 */
+    padding: 20px;  margin: 20px;       /* 여백 적용 가능 */
+}
+
+.s3{
+    display: inline-block;              /* input 등등 마크업 기본값 */
+    width: 100px; height: 100px;        /* 사이즈 적용 가능 */
+    padding: 20px; margin: 20px;        /* 여백 적용 가능 */
+}
+
+.s4{
+    display: none;                      /* 숨기기(표시 안 함) */
+
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+
+}
+
+/* 복수선택자 : , 구분하여 여러개 선택자 */
+.box6, .box7{
+    width: 300px;
+    padding: 20px;
+}
+
+/* box-sizing */
+.box6{ box-sizing: content-box; }       /* 컨텐츠 */
+.box7{ box-sizing: border-box; }        /* 컨텐츠 + 안쪽여백 (권장) */
+
