@@ -1,0 +1,56 @@
+*{
+    border: solid 1px red;
+}
+
+.main{
+    width: 300px;
+    height: 530px;
+    margin: 0 auto;
+    background-color: rgb(255, 207, 215);
+}
+
+.name{
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    margin: 15 auto;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 17;
+    border: solid 3px white;
+    
+}
+
+div > img{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    border-radius: 100%;
+    margin: 25 auto;
+}
+
+.c{
+    text-align: center;
+    font-size: 13px;
+    font-family: 맑은고딕;
+    margin: 0px 0px 10px;
+}
+
+.box1{
+    display: flex;
+    margin: 20 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 270px;
+    gap: 10px 0px;
+    
+}
+
+.blue{
+    width: 270px;
+    padding: 17px;
+    background-color: rgb(164, 222, 245);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
