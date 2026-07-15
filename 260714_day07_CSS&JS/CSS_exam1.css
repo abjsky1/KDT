@@ -48,8 +48,8 @@
 }
 
 .box5{
-    margin: 0 auto;                     /* 바깥여백의 왼/오른쪽을 auto 설정 : 현재 구역을 가운데로 이동 */
-    width: 50px;                        /* 가로 사이즈 */
+    margin: 0 auto; width: 50px;        /* 바깥여백의 왼/오른쪽을 auto 설정 : 현재 구역을 가운데로 이동 */
+    
     text-align: center;                 /* 구역내 컨텐츠 가로 정렬 */
     color: red;                       /* 글꼴 색상 */
     background-color: beige;          /* 구역 배경 색상 */

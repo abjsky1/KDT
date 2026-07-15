@@ -1,0 +1,82 @@
+/*
+
+HTML : 웹페이지 뼈대 , JS : 웹페이지 행동 , CSS : 웹페이지 꾸미기 , 크롬/개발자도구 : 테스트/검증 용
+
+1. CSS 적용방법
+    1. < 마크업명 style="속성명:속성값" >
+    2. <head> <style> 선택자{ 속성명:속성값; } </style> </head>
+    3. * .css파일 생성한 뒤 <head> <link rel="stylesheet" href="css파일경로"> </head>
+
+2. 선택자 종류
+    1. *        :  전체선택자 , 공통 CSS
+    2. 마크업명  :  특정마크업선택자
+    3. .class   :  클래스선택자 , <마크업명 class="이름정의"> , 복수
+    4. #id      :  아이디선택자 , <마크업명 id="이름정의"> , 단일
+    5. 자식선택자 : 상위선택자 > 하위선택자{ }
+    6. 자손선택자 : 상위선택자 하위선택자{ }
+    7. 복수선택자 : 선택자A , 선택자B{ }
+
+3. 선택자 우선순위
+    id > class > 마크업명 > *
+    속성과 선택자가 동일한 경우 마지막에 정의한 속성 적용
+
+*/
+/*
+
+[1] text : 
+
+
+[2] 구역 : HTML 마크업은 1개당 하나의 구역을 갖는다.
+
+
+[3] display : 
+
+
+[4] box-sizing : width 크기 기준점
+
+
+*/
+
+/*
+*{
+    border: solid 1px red;
+}
+*/
+
+/* 1. 로그인 감싼 구역 */
+body > div{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(175, 116, 116);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+div > input{
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    border: solid 1px gray;
+    margin-bottom: 5px;
+}
+
+div > button{
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div > a{
+    color: blue;
+}
+
+
+
+
+
+
+
+
