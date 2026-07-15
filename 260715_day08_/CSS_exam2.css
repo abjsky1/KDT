@@ -1,0 +1,105 @@
+/* */
+*{
+    border: solid 1px black;
+}
+
+.box{
+    border: solid 1px red;
+    background-color: lightskyblue;
+    width: 100px;
+}
+
+.flexbox-1{
+    border: dotted 5px blue;       
+}
+
+.flexbox0{
+    display: flex;          /* 하위요소들 배치 방법 */
+}
+
+.flexbox1{
+    display: flex;          /* 하위요소들 배치 방법 */
+    width: 250px;
+    flex-wrap: nowrap;      /* 만약 하위요소들의 크기가 구역보다 커지면 하위요소 자동 크기조절 */
+}
+
+.flexbox2{
+    display: flex;          /* 하위요소들 배치 방법 */
+    width: 250px;
+    flex-wrap: wrap;      /* 만약 하위요소들의 크기가 구역보다 커지면 하위요소 자동 줄바꿈 */
+}
+
+.flexbox3{
+    display: flex;          /* 하위요소들 배치 방법 */
+    flex-direction: row;      /* 가로배치 : 기본값 */
+}
+
+.flexbox4{
+    display: flex;          /* 하위요소들 배치 방법 */
+    flex-direction: column;      /* 세로배치 : 기본값 */
+}
+
+.flexbox5{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: flex-start;      /* 하위 요소들 가로 정렬(왼쪽정렬/기본값) */
+}
+
+.flexbox6{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: flex-end;      /* 오른쪽 정렬 */
+}
+
+.flexbox7{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: center;      /* 가운데 정렬 */
+}
+
+.flexbox8{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-between;      /* 사이여백 균등 정렬 */
+}
+
+.flexbox9{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 양쪽/사이여백 균등 정렬 */
+}
+
+.flexbox10{
+    display: flex;          /* 하위요소들 배치 방법 */
+    gap: 20px;          /* 사이여백 직접 설정 */
+}
+
+.flexbox11{
+    width: 250px;
+    flex-wrap: wrap;
+    display: flex;          /* 하위요소들 배치 방법 */
+    gap: 30px 20px;      /* 사이여백 : 세로여백 , 가로여백 */
+}
+
+
+
+
+.flexbox12{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 가운데 정렬 */
+}
+
+.flexbox13{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 가운데 정렬 */
+}
+
+.flexbox14{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 가운데 정렬 */
+}
+
+.flexbox15{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 가운데 정렬 */
+}
+
+.flexbox16{
+    display: flex;          /* 하위요소들 배치 방법 */
+    justify-content: space-evenly;      /* 가운데 정렬 */
+}
