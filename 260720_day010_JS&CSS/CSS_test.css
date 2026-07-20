@@ -1,0 +1,70 @@
+*{ border: solid 1px red;}
+
+/* 자주 사용되는 기본 CSS */
+*{ 
+    box-sizing: border-box;     /* content + padding 포함 사이즈 정의 */
+    padding: 0px; margin: 0px;  /* 기본 여백 제거 */
+
+}
+
+a{  
+    text-decoration: none;      /* a하이퍼링크 밑줄 제거 */
+    color: black;           /* a하이퍼링크 색상 검정 */
+}
+
+li{
+    list-style-type: none;      /* li 항목 글머리 제거 */
+}
+
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto 20 auto;
+    align-items: center;    /* flex 하위요소들 세로 정렬 */
+}
+
+.left_head{
+
+
+}
+
+
+
+.right_head{
+
+
+}
+
+
+
+.top_menu{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0px;
+}
+
+
+.main_menu{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px;
+}
+
+.main_menu > li > a{
+    font-size: 20px;
+}
+
+
+
+
+#main{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+
