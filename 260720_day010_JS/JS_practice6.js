@@ -161,7 +161,17 @@ const products = [
 
 ];*/
 
+const products = [
 
+  { name: '노트북', price: 1200000, stock: 5 },
+
+  { name: '모니터', price: 350000, stock: 12 },
+
+  { name: '키보드', price: 80000, stock: 25 }
+
+]
+
+function renderProducts(){}
 
 
 
