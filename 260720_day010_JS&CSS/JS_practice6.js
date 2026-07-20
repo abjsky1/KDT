@@ -171,8 +171,16 @@ const products = [
 
 ]
 
-function renderProducts(){}
+let html = ``
 
+function renderProducts(List){
+    for(i=0 ; i<=List.length-1 ; i++){
+        html += `<div> <h4>${List[i].name}</h4> <p>${List[i].price}</p> <p>${List[i].stock}</p> </div>`
+    }
+}
+
+renderProducts(products)
+document.querySelector('p').innerHTML = html
 
 
 
