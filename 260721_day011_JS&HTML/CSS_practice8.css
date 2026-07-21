@@ -18,6 +18,40 @@ li{
 *{ border: solid 1px red;}
 
 
+
+.본문{
+    width: 1280px;
+    margin: 0 auto;
+    
+    
+}
+
+.tt{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.gg{
+    
+    background-color: #dbdee3;
+}
+
+
+.abc{
+    width: 300px;
+}
+
+.img123{
+    width: 300px;
+    
+}
+
+
+
+
+
+
+
 .전체{
     background-color: #292d32;
 }
@@ -35,6 +69,9 @@ li{
     border-right: 1px solid white;
 }
 
+.중앙하단{
+    margin:0px 0px 50px 0px;
+}
 .div003{
     display: flex;
     justify-content: space-between;
@@ -42,8 +79,16 @@ li{
 
 .divbox01{
     width: 400px;
+    margin-top: 50px;
 }
 
+.divbox02{
+    width: 400px;
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
 .aaaaa{
     font-size: 15px;
 }
@@ -54,5 +99,9 @@ li{
 }
 
 .ccccc{
-    margin:50px 0px 15px 0px;
+    margin:0px 0px 15px 0px;
+}
+
+.ddddd{
+    margin: 0px 10px;
 }
