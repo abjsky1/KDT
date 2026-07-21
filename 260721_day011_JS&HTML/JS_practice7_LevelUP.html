@@ -12,32 +12,32 @@
 </head>
 <body>
     
-    <h1>미니 가계부</h1>
+    <h1>미니 전화번호부</h1>
 
-    <h2>등록 영역</h2>
+    <h2>연락처 등록</h2>
 
     <div>
-        <span>날짜선택 :</span>
-        <input id="date" type="date" />
+        <span>이름 :</span>
+        <input id="name" />
     </div>
 
     <div>
-        <span>항목입력 :</span>
-        <input id="item" />
+        <span>연락처 :</span>
+        <input id="number" placeholder="010-0000-0000"/>
     </div>
 
     <div>
-        <span>금액입력 :</span>
-        <input id="money"/>
+        <span>메모 :</span>
+        <input id="memo"/>
     </div>
 
     <div>
-        <button onclick="가계부작성()">등록버튼</button>
+        <button onclick="연락처등록()">등록</button>
     </div>
 
 
     <h2>
-        목록 영역
+        연락처 목록
     </h2>
 
 
@@ -45,13 +45,13 @@
         <table id="list" border="1">
             <tr>
                 <th>
-                    날짜
+                    이름
                 </th>
                 <th>
-                    항목
+                    전화번호
                 </th>
                 <th>
-                    금액
+                    메모
                 </th>
             </tr>
 
@@ -63,6 +63,6 @@
 
 
 
-    <script src="JS_practice7.js"></script>
+    <script src="JS_practice7_LevelUP.js"></script>
 </body>
 </html>
