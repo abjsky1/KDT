@@ -14,8 +14,96 @@ li{
     list-style-type: none;      /* li 항목 글머리 제거 */
 }
 /* 자주 사용되는 기본 CSS */
-
+/*
 *{ border: solid 1px red;}
+*/
+#header{ 
+    width: 1200px; /* 구역 가로 사이즈 */
+    margin: 0 auto; /* 구역 가로 가운데 정렬 */
+}
+#main{ width: 1280px; margin: 0 auto; }
+
+
+/*================header===================*/
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 21px;
+}
+.head1{padding: 0px 5px; color: blue;}
+.head2{padding: 0px 5px;}
+.left-head{
+    display: flex;
+    margin: 10px;
+}
+.right-head{
+    display: flex;
+    font-size: 15px;
+}
+.right-head>li{padding: 0px 20px;}
+
+/*==============main=============*/
+.main_img{ width: 1800px; margin: 0 auto;}
+.main_img>img{width: 1800px;}
+#main{display: flex; justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;    
+}
+.main1{
+    display: flex;
+    width: 600px;
+}
+.main2{
+    display: flex;
+    width: 600px;
+}
+.본문{
+    padding: 0px 30px;
+    
+}
+.title{
+    font-weight: bold;
+}
+
+.본문2{
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.tt{
+    padding-top: 70px;
+
+}
+.gg{
+    height: 400px;
+    background-color: #dbdee3;
+}
+
+
+.abc{
+    width: 300px;
+}
+
+.img123{
+    width: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
