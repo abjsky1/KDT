@@ -48,25 +48,45 @@ for 반복문을 사용해 가장 긴 단어를 찾아 반환하는 findLongestW
 
 const words = ['apple', 'banana', 'kiwi', 'strawberry'];*/
 
+// const words = ['apple', 'banana', 'kiwi', 'strawberry']
+// 
+// let a = ``
+// 
+// console.log(``.length)
+// console.log('apple'.length)
+// console.log(a.length)
+// console.log(words[0].length)
+// 
+// function findLongestWord(List){
+//     for(i=0 ; i<=List.length-1 ; i++){
+//         if(a.length < List[i].length){
+//             a = List[i]
+//         }
+//     }
+//     return a
+// }
+// 
+// console.log(findLongestWord(words))
+
 const words = ['apple', 'banana', 'kiwi', 'strawberry']
 
-let a = ``
-
-console.log(``.length)
-console.log('apple'.length)
-console.log(a.length)
-console.log(words[0].length)
-
 function findLongestWord(List){
-    for(i=0 ; i<=List.length-1 ; i++){
-        if(a.length < List[i].length){
-            a = List[i]
+    let max = List[0]
+    for(i=1 ; i<=List.length-1 ; i++){
+        if(max.length <= List[i].length){
+            max = List[i]
         }
     }
-    return a
+    return max
 }
 
 console.log(findLongestWord(words))
+
+
+
+
+
+
 
 
 
