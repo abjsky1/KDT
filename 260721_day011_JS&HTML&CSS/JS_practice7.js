@@ -44,6 +44,11 @@ function 등록함수(){
     alert('등록성공')
 
     console.log(가계부목록)
+
+    // 입력받은 값들 초기화
+    document.querySelector('#date').value = ''
+    document.querySelector('#item').value = ''
+    document.querySelector('#money').value = ''
 }
 
 
