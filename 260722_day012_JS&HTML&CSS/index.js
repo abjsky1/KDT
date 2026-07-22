@@ -1,4 +1,5 @@
-
+// 사원 전체 목록에서 이름 부서 직급 수정부분 업데이트
+// 새로운 부서명 생성시 부서 부서 선택창에 업데이트
 
 
 let departmentList = [  { 'dcode' : 1 , 'dname' : "개발팀"   }, 
@@ -80,8 +81,16 @@ function departmentUpdate(dcode){
 function departmentDelete(dcode){
     for(let i=0; i<departmentList.length; i++){
         if(departmentList[i].dcode == dcode){
+            
+            // 유효성 검사
+            for( a = 0 ; a <= employeeList.length-1 ; a++ ){
+                if(employeeList[a].dcode == dcode){
+                    alert('해당 부서에 사원이 등록되어 있어 삭제할 수 없습니다.')
+                    return
+                }
+            }
             departmentList.splice(i,1)
-            alert("삭제 성공")
+            alert("부서 삭제 성공")
             departmentPrint()
             return
         }
@@ -163,19 +172,31 @@ function employeeUpdate(ecode) {
     let change = 0;
     if (employeeList[i].ecode == ecode) {
       let newname = prompt("수정할 이름 입력");
-      // let newdepartment = prompt("수정할 부서 입력");
+      let newdepartment = prompt("수정할 부서 입력");
       let newposition = prompt("수정할 직급 입력");
-      // let changeDepartment = [];
-      // for (let j = 0; j < departmentList.length; j++) {
-      //   changeDepartment = Object.values(departmentList[j]);
-      // }
-      // console.log(changeDepartment);
-      // if (!employeeList[i].eposition.includes(newposition)) {
-      //   alert("존재하지 않는 직급입니다.");
-      //   return;
-      // }
+      let changeDepartment = [];
+      for (let j = 0; j < departmentList.length; j++) {
+        changeDepartment.push(departmentList[j].dname);
+      }
+
+      if (changeDepartment.includes(newdepartment) == false) {
+        alert("존재하지 않는 부서입니다.");
+        return;
+      }
+
+      for (let k = 0; k < departmentList.length; k++) {
+        if (newdepartment == departmentList[k].dname) {
+          newdepartment = departmentList[k].dcode;
+        }
+      }
+
+      console.log(changeDepartment);
+      if (employeeList[i].eposition.includes(newposition) == false) {
+        alert("존재하지 않는 직급입니다.");
+        return;
+      }
       employeeList[i].ename = newname;
-      // employeeList[i].dcode = newdepartment;
+      employeeList[i].dcode = newdepartment;
       employeeList[i].eposition = newposition;
 
       employeePrint();
