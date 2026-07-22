@@ -150,7 +150,6 @@ function productAdd(){
     // 5. 조회구역 최신화
     productPrint()
 
-
 }
 
 
