@@ -1,0 +1,97 @@
+
+*{border: solid 1px red;}
+
+#플러스{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    width: 25px;
+    padding: 1px 11px 3px 11px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30;
+    right: 30;
+    box-shadow: 0px 3px 5px rgb(90, 90, 90);
+    
+}
+#연결용{
+    width: 40;
+    position: ;
+}
+
+#탑{
+    background-color: rgb(232, 241, 255);
+    position: absolute;
+    bottom: 225;
+    right: 36;
+}
+
+#네이버{
+    background-color: rgb(232, 255, 241);
+    position: absolute;
+    bottom: 180;
+    right: 36;
+}
+
+#헬프{
+    background-color: rgb(255, 243, 234);
+    position: absolute;
+    bottom: 135;
+    right: 36;
+}
+
+#챗{
+    background-color: rgb(243, 233, 255);
+    position: absolute;
+    bottom: 90;
+    right: 36;
+}
+
+.메뉴{
+    border-radius: 100%;
+    width: 35px;
+    color: blue;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 0px;
+    box-shadow: 0px 3px 5px rgb(90, 90, 90);
+}
+
+.메뉴{
+    display: none;
+}
+
+#플러스:hover{
+    color: aqua;
+    background-color: rgb(60, 60, 60);
+}
+
+#연결용:hover .메뉴{
+    display: block;
+    
+}
+
+#플러스:hover 
+
+#연결도우미{
+    display: flex;
+    width: 100px;
+    height: 200px
+}
+
+
+/*
+#연결도우미{
+    display: none;
+}
+*/
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+
+.바탕{
+    background-color: red;
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box{
+    background-color: yellow;
+    width: 120px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.강좌1{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+
+.강좌2{
+    position: absolute;
+    top: 250;
+    left: 280;
+}
+
+.강좌3{
+    position: absolute;
+    top: 250;
+    right: 280;
+}
+
+.강좌4{
+    position: absolute;
+    bottom: 250;
+    left: 280;
+}
+
+.강좌5{
+    position: absolute;
+    bottom: 250;
+    right: 280;
+}
+
+.강좌6{
+    position: absolute;
+    bottom: 100;
+    left: 550px;
+}

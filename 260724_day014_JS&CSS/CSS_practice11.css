@@ -126,12 +126,49 @@ li{
 
 
 #푸터바텀{
-    font-size: 1%;
     width: 40%;
     margin: 0 auto;
 }
 
 .푸터바텀내용{
+    font-size: 1%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#사이드바고정메뉴{
+    width: 3%;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    right: 0px;
+    top: 250px;
+}
+
+
+.sidebarimg{
+    width: 100%;
+}
+
+
+
 
