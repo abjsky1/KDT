@@ -1,0 +1,63 @@
+
+
+/* 1. a 기본값 제거 */
+a{text-decoration: none; color: black;}
+
+/* 2. 선택자:hover , 해당 선택자에 마우스를 올렸을 때 */
+a:hover{ color: red; }
+
+/* 3. 선택자:visited , 해당 브라우저에 방문/접속한 적이 있는 링크 */
+a:visited{ color: yellow; }
+
+/* 4. 선택자:active */
+a:active{ color: blue; }
+
+
+
+
+
+
+/* 1. 선택자::before , 해당 선택자 앞에 컨텐츠를 추가 */
+.box1::before{
+    content: "[가상요소 before(전)구역]";
+}
+
+.box1::after{
+    content: "[가상요소 after(후)구역]";
+}
+
+
+/* 2. */
+li{list-style-type: none;} /* 글머리 제거 */
+.box2 > li::before{ content: "⭐​";}
+.box2 > li::after{ content: url(../260724_day014_JS&CSS/img/popup_icons/good.png);}
+
+
+
+
+
+
+#header{
+    background-color: beige;
+}
+#header > ul{
+    display: flex; 
+    justify-content: center;
+}
+
+.mainmenu > li{
+    position: relative;
+    padding: 10;
+}
+
+.submenu{
+    position: absolute; /* 절대위치: (position)상위요서 기준점으로 위치 이동 */
+    top: 30px; /* 위에서 30px 만큼 아래로 이동 */
+    right: 0px;
+    padding: 10px;
+    background-color: beige;
+    width: 30px;
+    display: none; /* 숨기기 */
+}
+
+.mainmenu > li:hover .submenu{display: block;}

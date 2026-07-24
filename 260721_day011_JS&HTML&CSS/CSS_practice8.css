@@ -14,9 +14,11 @@ li{
     list-style-type: none;      /* li 항목 글머리 제거 */
 }
 /* 자주 사용되는 기본 CSS */
+
 /*
 *{ border: solid 1px red;}
 */
+
 #header{ 
     width: 1200px; /* 구역 가로 사이즈 */
     margin: 0 auto; /* 구역 가로 가운데 정렬 */

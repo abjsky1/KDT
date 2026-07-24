@@ -1,0 +1,64 @@
+/*
+    position
+*/
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid red;
+}
+
+.box1{
+    /* 요소 배치 순서 : static(기본값) 정적 , 위치 변경 불가능 */
+    position: static;
+    left: 50px;     /* 적용 안 됨 */
+}
+
+.box2{
+    /* 요소 배치 순서 : relative (원래자리기준) 상대적인 위치로 변경 가능 */
+    position: relative; 
+    top: 50px;      /* top 위에서부터 50px 아래로 이동, 음수이면 위로 이동 */
+    left: 50px;     /* left 왼쪽에서부터 50px 오른쪽으로 이동, 음수이면 왼쪽으로 이동 */
+}
+
+.box3{
+    /* 요소 배치 순서 : absolute 절대(position 을 가진 가장 가까운 상위요소기준 **position: static; 은 제외) 위치 */
+    position: absolute; 
+    top: 840px;
+    left: 50px;
+}
+
+.box4{
+    /* 요소 배치 순서 : fixed 디바이스(화면) 위치 고정 */
+    position: fixed; 
+    bottom: 50px;   /* bottom 아래에서부터 50px 위로 이동, 음수이면 아래로 이동 */
+    right: 50px;    /* right 오른쪽에서부터 50px 왼쪽으로 이동, 음수면 오른쪽으로 이동 */
+}
+
+.parent{
+    position: relative;
+}
+
+.box5{
+    /* 요소 배치 순서 : fixed 디바이스(화면) 위치 고정 */
+    position: absolute; 
+    top: 50px; 
+    left: 50px;
+}
+
+
+
+
+.header{
+    /* 요소 배치 순서 : sticky 디바이스(화면)에서 벗어나면 위치 고정*/
+    display: flex;
+    background-color: beige;
+    position: sticky;
+    top: 50px;
+    bottom: 0px;
+    z-index: -1;    /* position 사용하는 요소들간의 겹침 우선순위 : 숫자가 클수록*/
+}
+
+.header > ul{
+    display: flex;
+}

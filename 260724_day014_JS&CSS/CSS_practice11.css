@@ -1,0 +1,137 @@
+
+/* 자주 사용되는 기본 CSS */
+
+*{ 
+    box-sizing: border-box;     /* content + padding 포함 사이즈 정의 */
+    padding: 0px; margin: 0px;  /* 기본 여백 제거 */
+
+}
+
+a{  
+    text-decoration: none;      /* a하이퍼링크 밑줄 제거 */
+    color: black;           /* a하이퍼링크 색상 검정 */
+}
+
+li{
+    list-style-type: none;      /* li 항목 글머리 제거 */
+}
+/* 자주 사용되는 기본 CSS */
+
+
+*{ border: solid 1px red;}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#우측상단전체{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+#상단메인메뉴및검색{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#상단메인메뉴{
+    display: flex;
+    
+}
+
+#상단검색창{
+    display: flex;
+
+}
+
+#메인로고이미지{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#메인처음시작{
+    width: 100%;
+}
+
+#핫아이템{
+   width: 10%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#핫아이템설명{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#상품1{
+    width: 24%;
+    margin-bottom: 100;
+
+}
+
+.itemImg{
+    width: 100%;
+}
+
+#컬러및리뷰{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#상품목록{
+    display: flex;
+    justify-content: space-between;
+}
+
+#상품목록{
+    margin: 0 5%;
+    flex-wrap: wrap;
+}
+
+#상품소개{
+    display:flex;
+}
+
+#상품설명{
+    width: 100%;
+}
+
+#상품가격{
+    display: flex;
+    justify-content: space-between;
+}
+
+#푸터전체백그라운드{
+    background-color: rgb(247, 247, 247);
+}
+
+#푸터텍스트박스{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.푸터박스{
+    width: 25%;
+}
+
+
+#푸터바텀{
+    font-size: 1%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.푸터바텀내용{
+    text-align: center;
+}
+
