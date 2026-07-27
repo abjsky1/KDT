@@ -1,0 +1,54 @@
+.box{
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.size1{
+    width: 200px;
+    height: 200px;
+}
+
+.size2{
+    /* 최소 가로사이즈 설정 */
+    min-width: 600px;
+}
+
+.size3{
+    /* 최대 가로사이즈 설정 */
+    max-width: 600px;
+}
+
+.size4{
+    width: 200px;
+    height: 50px;
+    /* 하위 요소들이 컨텐츠(이미지/텍스트) 넘쳤을 때 */
+    /* overflow: visible; (기본값) */
+    overflow: visible;
+}
+
+.size5{
+    width: 200px;
+    height: 50px;
+    /* 하위 요소들이 컨텐츠(이미지/텍스트) 넘쳤을 때 */
+    /* overflow: hidden; (넘치면 숨김) */
+    overflow: hidden;
+}
+
+.size6{
+    width: 200px;
+    height: 50px;
+    /* 하위 요소들이 컨텐츠(이미지/텍스트) 넘쳤을 때 */
+    /* overflow: scroll; (넘치면 스크롤 표시) */
+    overflow: scroll;
+}
+
+.size7{
+    width: 200px;
+    height: 50px;
+    /* 하위 요소들이 컨텐츠(이미지/텍스트) 넘쳤을 때 */
+    /* overflow-y: scroll; (세로로 넘치면 스크롤 표시) */
+    /* overflow-x: hidden; (가로로 넘치면 숨김) */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

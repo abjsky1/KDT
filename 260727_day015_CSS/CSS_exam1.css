@@ -52,3 +52,60 @@
 
 
 */
+
+
+
+.basicTable{
+    border: 1px solid black;
+    width: 500px;
+        
+}
+
+.basicTable th, .basicTable td{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+/* 선택자:nth-child( N ), 동일한 선택자들 중에서 특정 N번째 요소*/
+.basicTable td:nth-child(1){
+    background-color: aqua;
+}
+
+.basicTable td:nth-child(3){
+    background-color: beige;
+}
+
+.basicTable td[colspan]{
+    text-align: right;
+}
+
+
+.styleTable{
+    width: 700px;
+    border-collapse: collapse; /* 이중테두리를 하나의 테두리로 병합 */
+}
+
+.styleTable th, .styleTable td{
+    border: 1px solid black;
+}
+
+
+/* 선택자:nth-of-type(odd) 홀수-odd / 짝수-even 선택자 */
+.styleTable > tbody > tr:nth-of-type(odd){
+    background-color: #EEEEEE;
+}
+
+.styleTable > tbody > tr:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
